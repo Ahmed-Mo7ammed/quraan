@@ -1,0 +1,26 @@
+.main{
+background-image: url(../../../../public/pexels-basheer-alshammari-35454597-7255028.jpg);
+background-position: center;
+object-fit: cover;
+height: 100vh;
+padding-top: 80px;
+}
+.mainContainer{
+    margin-top: 10%;
+font-family: var(--font-aref-ruqaa) ;
+    background: rgba(255, 255, 255, 0.418); 
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); /* تأثير التمويه */
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow:  2px 2px 5px 2px  rgba(255, 255, 255, 0.459);
+    transition: all .3s linear;
+}
+.mainContainer:hover{
+
+
+    box-shadow:none;
+
+
+}
